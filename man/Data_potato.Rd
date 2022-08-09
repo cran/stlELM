@@ -2,10 +2,10 @@
 \alias{Data_potato}
 \docType{data}
 \title{
-Normalized Monthly Average Potato Price of India
+Monthly Average Potato Price of Delhi Market (India)
 }
 \description{
-Normalized Monthly Average Potato Price of India from January 2010 to July 2020.
+Monthly Average Potato Price of  Delhi Market from January 2010 to July 2020.
 }
 \usage{data("Data_potato")}
 \format{
@@ -15,13 +15,13 @@ Normalized Monthly Average Potato Price of India from January 2010 to July 2020.
   }
 }
 \details{
-Dataset contains 127 observations of normalized monthly average potato price of India. It is obtained from World Bank "Pink sheet".
+Dataset contains 127 observations of  monthly average potato price of  Delhi Market. It is obtained from Agmarknet Website.
 }
 \source{
-Department of Consumer Affairs, Govt. of India
+https://agmarknet.gov.in/
 }
 \references{
-https://consumeraffairs.nic.in/
+https://agmarknet.gov.in/
 }
 \examples{
 data(Data_potato)

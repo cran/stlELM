@@ -6,7 +6,7 @@
 #' @export
 #'
 STLELM <- function(data, stepahead=10){
-  STLcomp <- mstl(data)
+  STLcomp <- forecast::mstl(data)
   STLcomp_plots<-plot(STLcomp)
   data_trn <- ts(head(data, round(length(data) - stepahead)))
   data_test <- ts(tail(data, stepahead))
@@ -29,3 +29,4 @@ STLELM <- function(data, stepahead=10){
               MAPE_stlELM=MAPE_stlELM, rmse_stlELM=rmse_stlELM,
               STLcomp_plots=STLcomp_plots))
 }
+
